@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { fetchProjects } from '../actions/project_actions'
-import Project from './project/project'
+import { fetchProjects } from '../../actions/project_actions'
+import Project from './project'
 
 class Portfolio extends Component {
 

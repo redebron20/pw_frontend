@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route} from 'react-router-dom'
 
 import Home from './Home'
-import Portfolio from './portfolio_container'
+import Portfolio from './project/portfolio_container'
 import ProjectShow from './project/project_show'
 import NewProject from './project/project_form'
 import Resume from './resume/resume_container'

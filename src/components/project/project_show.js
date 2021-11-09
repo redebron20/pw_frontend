@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 
 const ProjectShow = ({ match }) => {
 
-  const projectId = parseInt(match.params.projectId)
+  const projectId = parseInt(match.params.projectId)-1
   const project = useSelector(state => state.projects[projectId])
 
   if (!project) {
@@ -32,7 +32,7 @@ const ProjectShow = ({ match }) => {
 
             <div>
               <h5>Video Demonstration</h5>
-              <iframe width="560" height="315" src={project.demo_vid} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+              <iframe width="560" height="315" src={project.demo_vid} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
 
         </div>

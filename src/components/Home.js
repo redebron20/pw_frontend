@@ -1,9 +1,10 @@
 import React from 'react';
+import Intro from './intro/Introduction'
 
 const Home = () => {
     return (
         <div>
-            Welcome to my personal website.
+            <Intro/>
         </div>
     );
 };
