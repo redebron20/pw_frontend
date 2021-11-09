@@ -2,9 +2,9 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 
 const ProjectShow = ({ match }) => {
-  const {projectId} = match.params
-  const singleProj = parseInt(projectId)-1
-  const project = useSelector(state => state.projects[singleProj])
+
+  const projectId = parseInt(match.params.projectId)
+  const project = useSelector(state => state.projects[projectId])
 
   if (!project) {
     return (
