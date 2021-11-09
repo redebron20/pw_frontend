@@ -1,11 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-const Education = () => {
+const Education = ({ education }) => {
     return (
-        <div>
-            Welcome to my Education.
-        </div>
+      <div>
+          <div className="education-list">
+                <h4 className="education-subhead">{ education.degree }</h4> <br/>
+                {education.school} | { education.location} | { education.startDate} to { education.endDate}
+          </div>
+      </div>
+    
     );
-};
-
-export default Education;
+}
+export default (Education)
