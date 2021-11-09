@@ -5,6 +5,7 @@ import Home from './Home'
 import Portfolio from './portfolio_container'
 import ProjectShow from './project/project_show'
 import NewProject from './project/project_form'
+import Resume from './resume/resume_container'
 
 const Router = () => {
     return (
@@ -13,7 +14,8 @@ const Router = () => {
             <Route exact path='/' component={Home} />
             <Route exact path='/portfolio' component={ Portfolio } />
             <Route exact path='/projects/:projectId' component={ ProjectShow } />
-            <Route exact path='/newproject' component={NewProject} />
+            <Route exact path='/newproject' component={ NewProject } />
+            <Route exact path='/resume' component={ Resume } />
         </Switch>
         
     );

@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
-
 import { addProject } from '../../actions/project_actions';
 import 'bootstrap/dist/css/bootstrap.css';
 import Form from 'react-bootstrap/Form';
