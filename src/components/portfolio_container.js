@@ -11,7 +11,7 @@ class Portfolio extends Component {
 
     render() {
         const projects = this.props.projects.map(( project, i ) => <Project key={i} project={ project } />)
-debugger
+
         return (
             <div>
                 { projects }

@@ -3,6 +3,7 @@ import { Switch, Route} from 'react-router-dom'
 
 import Home from './Home'
 import Portfolio from './portfolio_container'
+import ProjectShow from './project/project_show'
 
 const Router = () => {
     return (
@@ -10,6 +11,7 @@ const Router = () => {
         <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/portfolio' component={ Portfolio } />
+            <Route exact path='/projects/:projectId' component={ ProjectShow } />
         </Switch>
         
     );
