@@ -4,7 +4,6 @@ import Router from "./Router";
 const App = () => {
     return (
         <div>
-            <Home />
             <Router />
         </div>
     )
