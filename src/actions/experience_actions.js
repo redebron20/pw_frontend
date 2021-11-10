@@ -3,7 +3,7 @@ export const fetchExperiences = () => {
         return fetch(`http://localhost:3000/experiences`)
         .then(resp => resp.json())
         .then(experiences => {
-            dispatch({ type: 'FETCH_PROJECTS', payload: experiences })
+            dispatch({ type: 'FETCH_EXPERIENCES', payload: experiences })
         })
     }
 }

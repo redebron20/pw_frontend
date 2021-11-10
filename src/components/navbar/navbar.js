@@ -8,7 +8,7 @@ const NavBar = () => {
       <nav>
 
         <div>
-          <img src="https://res.cloudinary.com/yourladyred20/image/upload/v1636503075/pw/redname_wpyvqc.jpg" className="signature" />
+          <img src="https://res.cloudinary.com/yourladyred20/image/upload/v1636511320/pw/Red_Ebron_2_ufrbb4.png" className="signature" />
         </div>
         
         <div className="nav-links">

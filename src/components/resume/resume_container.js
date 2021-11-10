@@ -18,21 +18,18 @@ class Resume extends Component {
         <Education key={i} education={ education } />)
       const experiences = this.props.experiences.map(( experience, i ) => 
         <Experience key={i} experience={ experience } />)
-      return (
+        return (
         <div>
-  
           <div className="heading">
             <img src="https://i.imgur.com/uM5jQ7T.png" className="header"/>
           </div>
   
           <div>
-  
             <div className="resume-obj">
-              <TechnicalSkills/>
+              <TechnicalSkills />
             </div>
   
             <div className="experience-wrapper">
-  
                 <div className ="experience-obj">
                     <h2 className="experience-heading">Experiences</h2>
                 </div>

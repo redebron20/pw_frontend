@@ -7,7 +7,7 @@ body{
   margin: 0;
   font-family: 'Sora', sans-serif;
   font-weight: 500;
-  background-color: rgb(226, 214, 202);
+  background-color:#B5EEF4;
 }
 
 h3 {
@@ -51,13 +51,13 @@ h3 {
 .about-me{
   margin: 4rem;
   text-align: right;
-  background-color: rgba(252, 247, 238, 0.559);
+  background-color: #E6F4F1;
   padding: .5rem;
-  box-shadow: 5px 5px rgb(11, 42, 51);
+  box-shadow: 5px 5px #00ACC9;
 }
 
 .about-title {
-  background: linear-gradient(180deg, rgba(226, 214, 202,0) 65%, rgba(163, 101, 78, 0.483) 65%);
+  background: linear-gradient(180deg, #E6F4F1 65%, #00ACC9 65%);
   display:inline-block;
   font-size: 2em;
   margin-top: 1rem;
@@ -69,9 +69,9 @@ h3 {
 }
 
 
-/* Picture Wall */
+/* Photo Wall */
 
-.picture-wrapper{
+.photo-wrapper{
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -82,9 +82,9 @@ h3 {
 
 .pw-img{
   width: 80%;
-  border-color: rgb(246, 245, 242);
+  border-color: #00ACC9;
   border-style: solid;
-  border-width: 3px;
+  border-width: 2px;
   margin-bottom: 1rem;
 }
 
@@ -94,7 +94,7 @@ h3 {
 
 .pw-img-first{
   width: 80%;
-  border-color: rgb(246, 245, 242);
+  border-color: #00ACC9;
   border-style: solid;
   border-width: 2px;
   margin-bottom: 1rem;
@@ -106,7 +106,7 @@ h3 {
 
 .pw-img-last{
   width: 80%;
-  border-color: rgb(246, 245, 242);
+  border-color: #00ACC9;
   border-style: solid;
   border-width: 2px;
   margin-bottom: 1rem;
@@ -123,7 +123,7 @@ h3 {
 nav {
   text-align: center;
   background-color: rgba(226, 214, 202, 0.613);
-  background-image: url(https://res.cloudinary.com/yourladyred20/image/upload/v1636508950/pw/5184233_a2ldin.jpg);
+  background-image: url(https://res.cloudinary.com/yourladyred20/image/upload/v1636508818/pw/4031900_igaawo.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@ nav {
   display: inline-block;
   position: relative;
   margin: 1rem;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Sora', sans-serif;
   font-weight: 800;
   text-decoration: none;
   color:rgb(7, 27, 33);
@@ -178,7 +178,7 @@ nav {
   padding: 0rem;
   border-top: rgb(11, 42, 51);
   border-top-style: solid;
-  background-color: rgb(216, 199, 183);
+  background-color: #00ACC9;
   position: relative;
   bottom: 0;
   left: 0;
