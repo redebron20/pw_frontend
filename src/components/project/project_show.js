@@ -28,7 +28,7 @@ const ProjectShow = ({ match }) => {
                 {project.description}<br />
             </div>
 
-            <a href={project.github_url} target="_blank" ><img src="https://i.imgur.com/2Tqz4Yn.png" className="repo-button"/></a><br />
+            <a href={project.github_url} target="_blank" ><img src="https://res.cloudinary.com/yourladyred20/image/upload/v1636565089/pw/Repository_ckyda5.png" className="repo-button"/></a><br />
 
             <div>
               <h5>Video Demonstration</h5>
