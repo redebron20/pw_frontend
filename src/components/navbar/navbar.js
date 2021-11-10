@@ -1,4 +1,5 @@
 import React from 'react';
+// import Image from 'react-bootstrap/Image'
 import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
@@ -8,6 +9,7 @@ const NavBar = () => {
       <nav>
 
         <div>
+          {/* <Image src="https://res.cloudinary.com/yourladyred20/image/upload/v1636511320/pw/Red_Ebron_2_ufrbb4.png" fluid /> */}
           <img src="https://res.cloudinary.com/yourladyred20/image/upload/v1636511320/pw/Red_Ebron_2_ufrbb4.png" className="signature" />
         </div>
         
