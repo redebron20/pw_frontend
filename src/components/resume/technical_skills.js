@@ -23,8 +23,8 @@ const Tech = () => {
             <div className="tech-list">
                 <h4 className="tech-subhead">Experience With</h4>
                     <ul>
-                        <li>Placeholder</li>
-                        <li>Placeholder</li>
+                        <li>Adobe Photoshop/Lightroom</li>
+                        <li>Microsoft Office Suite</li>
                     </ul>
             </div>
 

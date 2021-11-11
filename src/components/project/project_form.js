@@ -33,9 +33,7 @@ class ProjectForm extends Component {
 
     render() {
         return (
-            <div style={{ display: 'block', 
-            width: 700, 
-            padding: 30 }}>
+            <div className='project-form'>
                 <h4>Add a new project</h4>
                 <Form onSubmit={this.handleSubmit}>
                     <Form.Group>

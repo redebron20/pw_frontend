@@ -378,3 +378,10 @@ img.social:hover {
   display:inline-block;
 }
 
+/* Project Form */
+
+.project-form {
+  display: block; 
+  width: 70%; 
+  padding: 4rem;
+}
