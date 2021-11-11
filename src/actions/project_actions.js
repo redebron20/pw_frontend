@@ -21,3 +21,13 @@ export const addProject = (project) => {
         })
     }
 }
+
+export const fetchProject = (projectId) => {
+    return (dispatch) => {
+        return fetch(`http://localhost:3000/projects/${projectId}`)
+        .then(resp => resp.json())
+        .then(project => {
+            dispatch({ type: 'FETCH_PROJECT', payload: project })
+        })
+    }
+}

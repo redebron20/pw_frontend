@@ -21,7 +21,7 @@ class Resume extends Component {
         return (
         <div>
           <div className="heading">
-            <img src="https://i.imgur.com/uM5jQ7T.png" className="header"/>
+            <img src="https://i.imgur.com/uM5jQ7T.png" alt="head-img" className="header"/>
           </div>
   
           <div>

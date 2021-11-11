@@ -1,11 +1,11 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import { connect } from 'react-redux'
 
-const ProjectShow = ({ match }) => {
+const ProjectShow = ({ match, projects }) => {
+  const project = projects.find(project => project.id === parseInt(match.params.projectId)) 
 
-  const projectId = parseInt(match.params.projectId)-1
-  const project = useSelector(state => state.projects[projectId])
-
+  
   if (!project) {
     return (
       <section>
@@ -20,7 +20,7 @@ const ProjectShow = ({ match }) => {
 
             <div className="project-spot-one">
                 <h4 className="project-title">{project.name}</h4> <br />
-                <img src={project.image_url} alt= "image" className="project-img"/><br />
+                <img src={project.image_url} alt= "project image" className="project-img"/><br />
             </div>
                 
             <div className="project-spot-two">
@@ -42,4 +42,8 @@ const ProjectShow = ({ match }) => {
   )
 }
 
-export default ProjectShow
+const mapStateToProps = state => ({
+  projects: state.projects
+})
+
+export default connect(mapStateToProps)(ProjectShow);

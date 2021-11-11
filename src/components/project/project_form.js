@@ -28,13 +28,7 @@ class ProjectForm extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
         this.props.addProject(this.state)
-        this.setState({
-            name: "",
-            description: "",
-            image_url: "",
-            github_url: "",
-            demo_vid: ""
-        }) 
+        this.props.history.push('/portfolio');
     }
 
     render() {
