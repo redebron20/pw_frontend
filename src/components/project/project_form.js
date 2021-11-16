@@ -6,12 +6,18 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
 class ProjectForm extends Component {
-    state = {
-        name: "",
-        description: "",
-        image_url: "",
-        github_url: "",
-        demo_vid: ""
+
+    constructor(props) {
+        super(props);
+        
+        this.state = {
+            name: "",
+            description: "",
+            image_url: "",
+            github_url: "",
+            demo_vid: ""
+        }
+
     }
 
     handleChange = (event) => {

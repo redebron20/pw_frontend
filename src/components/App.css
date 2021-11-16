@@ -298,7 +298,7 @@ img.social:hover {
 
 .tech-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1.8fr 1fr;
   grid-column-gap: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(11, 42, 51);
